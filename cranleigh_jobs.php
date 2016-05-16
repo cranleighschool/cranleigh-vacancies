@@ -99,8 +99,8 @@ class Cran_Jobs {
 		$labels = array(
 			'name'                  => _x( 'Vacancies', 'Post Type General Name', 'text_domain' ),
 			'singular_name'         => _x( 'Vacancy', 'Post Type Singular Name', 'text_domain' ),
-			'menu_name'             => __( 'Vacancy', 'text_domain' ),
-			'name_admin_bar'        => __( 'Vacancy', 'text_domain' ),
+			'menu_name'             => __( 'Job Vacancies', 'text_domain' ),
+			'name_admin_bar'        => __( 'Vacancies', 'text_domain' ),
 			'archives'              => __( 'Vacancies', 'text_domain' ),
 			'parent_item_colon'     => __( 'Parent Item:', 'text_domain' ),
 			'all_items'             => __( 'All Vacancies', 'text_domain' ),
