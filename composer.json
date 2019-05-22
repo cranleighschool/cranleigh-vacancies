@@ -1,0 +1,20 @@
+{
+  "name": "cranleighschool/cranleigh-vacancies",
+  "description": "Cranleigh Vacancies",
+  "require": {
+	"yahnis-elsts/plugin-update-checker": "^4.6",
+	"yahnis-elsts/admin-notices": "^1.0",
+	"rilwis/meta-box": "4.*"
+  },
+  "authors": [
+	{
+	  "name": "Fred Bradley",
+	  "email": "hello@fredbradley.co.uk"
+	}
+  ],
+  "autoload": {
+	"psr-4": {
+	  "CranleighSchool\\CranleighVacancies\\": "src"
+	}
+  }
+}
