@@ -8,6 +8,7 @@
 
 namespace CranleighSchool\CranleighVacancies;
 
+use WP_Query;
 
 class CS_CPT_Vacancies {
 
