@@ -10,6 +10,7 @@ class ComposerStaticInit2313b29ab67bbac0e5152f00311a1a6e
         'f7d520a7dfd4979ca7d4b88dfbc5d7f5' => __DIR__ . '/..' . '/rilwis/meta-box/meta-box.php',
         '1f37a5ef85747fbad7d9cdafefb4209b' => __DIR__ . '/..' . '/yahnis-elsts/admin-notices/AdminNotice.php',
         '89ff252b349d4d088742a09c25f5dd74' => __DIR__ . '/..' . '/yahnis-elsts/plugin-update-checker/plugin-update-checker.php',
+        '3a40280a15021b8d4729a659c11a8847' => __DIR__ . '/../..' . '/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (

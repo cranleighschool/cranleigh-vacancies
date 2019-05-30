@@ -9,4 +9,5 @@ return array(
     'f7d520a7dfd4979ca7d4b88dfbc5d7f5' => $vendorDir . '/rilwis/meta-box/meta-box.php',
     '1f37a5ef85747fbad7d9cdafefb4209b' => $vendorDir . '/yahnis-elsts/admin-notices/AdminNotice.php',
     '89ff252b349d4d088742a09c25f5dd74' => $vendorDir . '/yahnis-elsts/plugin-update-checker/plugin-update-checker.php',
+    '3a40280a15021b8d4729a659c11a8847' => $baseDir . '/src/functions.php',
 );
