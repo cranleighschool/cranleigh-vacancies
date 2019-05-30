@@ -4,7 +4,7 @@
         Plugin URI: http://www.cranleigh.org/vacancies
         Description: Custom Plugin that manages the vacancies section for the Cranleigh School Website.
         Author: Fred Bradley
-        Version: 1.3.2
+        Version: 1.4.0
         Author URI: http://fred.im
     */
 
