@@ -22,9 +22,9 @@ class CranleighVacancies {
 	/**
 	 * Cranleigh_Vacancies constructor.
 	 */
-	function __construct() {
-		register_activation_hook( __FILE__, [ $this, 'on_activation' ] );
-		register_deactivation_hook( __FILE__, [ $this, 'deactivate' ] );
+	function __construct(string $file) {
+		register_activation_hook( $file, [ $this, 'on_activation' ] );
+		register_deactivation_hook( $file, [ $this, 'deactivate' ] );
 
 		add_action( 'init', [ $this, 'custom_post_type' ], 0 );
 		add_action( 'init', [ $this, 'vacancy_types_tax' ], 0 );
