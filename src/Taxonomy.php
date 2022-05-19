@@ -67,7 +67,7 @@ class Taxonomy {
 
 		foreach ( $categories as $tax => $name ) :
 			if ( ! term_exists( $tax, Configuration::TAXONOMY_NAME ) ) :
-				wp_insert_term( $name[ $tax ], Configuration::TAXONOMY_NAME, [ 'slug' => $tax ] );
+				wp_insert_term( $name, Configuration::TAXONOMY_NAME, [ 'slug' => $tax ] );
 				endif;
 			endforeach;
 	}
