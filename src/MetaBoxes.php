@@ -48,10 +48,20 @@ class MetaBoxes {
 						'showTimepicker' => true,
 					],
 				],
+				[
+					'name' => __ ('Hide Application Forms', 'cranleigh'),
+					'desc' => 'Hide the application forms in the downloads section for the odd times you might need to do that',
+					'id' => "{$prefix}hide_forms",
+					'type' => 'select',
+					'std' => 'show',
+					'options' => [
+						'hide' => 'Yes, hide them',
+						'show' => 'No, show them'
+					]
+				]
 			],
 			'validation' => [
 				'rules' => [
-
 					"{$prefix}expiry" => [
 						'required' => true,
 					],
