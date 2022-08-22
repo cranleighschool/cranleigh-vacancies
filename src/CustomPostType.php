@@ -77,7 +77,7 @@ class CustomPostType {
 			'show_in_admin_bar'   => true,
 			'show_in_nav_menus'   => false,
 			'can_export'          => true,
-			'has_archive'         => true,
+			'has_archive'         => false,
 			'exclude_from_search' => false,
 			'publicly_queryable'  => true,
 			'capabilities'        => $capabilities,
